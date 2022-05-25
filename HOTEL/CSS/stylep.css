@@ -1,0 +1,145 @@
+.carousel-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 300px;
+}
+.carousel-slide{
+    height: auto;
+    position: relative;
+}
+.motto{
+    height: 600px;
+}
+.motto-line{
+    padding-top: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.services-provide img{
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.25);
+    border: 5px solid white;
+}
+.services-provide{
+    padding: 10px;
+}
+.services-provide-info h3{
+    color: darkgoldenrod;    
+}
+.detail{
+    width: 100%;
+    display: inline;
+}
+.detail-info{
+    width: 60%;
+    padding-left: 50px;
+}
+.detail-info h3{
+    font-size: 30px;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.detail-info p{
+    font-size: 20px;
+}
+.detail-info-1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.detail-rooms{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.detail-rooms-info h3{
+    color: darkgoldenrod;
+}
+.detail-rooms-info{
+    font-size: 15px;
+}
+.detail-rooms-info img{
+    height: 100px;
+    width: 200px;
+}
+.detail-offer{
+    height: 100%;
+    width: 35%;
+    font-size: 30px;
+    float: right;
+    margin-top: -430px;
+    padding-left: 40px;
+}    
+.detail-offer img{
+    height: 250px;
+    width: 450px;
+}
+@media (min-width:450px) and (max-width:768px){
+    .carousel-item{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .motto{
+        padding-left: 100px;
+    }
+    .motto-line{
+        margin-top: -270px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .motto-line p{
+        font-size: 28px;
+    }    
+    .services-provide img{
+        margin-top: -30px;
+        height: 80px;
+        width: 150px;
+    }
+    .detail{
+        display: block;
+    }
+    .detail-info-1{
+        font-size: 30px;
+    }
+    .detail-rooms{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 100px;
+    }
+    #dr{
+        padding-left: 70px;
+    }
+    #lr{
+        padding-left: 70px;
+    }
+    #er{
+        padding-left: 70px;
+    }
+    .detail-offer{
+        margin-top: 40px;
+        margin-right: 500px;
+        font-size: 20px;
+    }
+    .detail-offer a img{
+        width: 500px;
+        height: 200px;
+    }
+}
+@media(min-width: 450px) and (max-width: 1140px){
+    .detail-info-1{
+        font-size: 30px;
+    }
+}

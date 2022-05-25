@@ -1,0 +1,22 @@
+.package{
+    margin: 20px;
+    color: whitesmoke;
+}
+.package h3{
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.package ol li{
+    font-size: 20px;
+}
+.package ol{
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.package h3 img{
+    width: 40px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,96 @@
+.desc{
+    display: inline-block;
+    margin: 20px;
+}
+.desc-detail{
+    width: 33.33%;
+    padding-left: 50px;
+}
+.desc-detail h2{
+    font-size: 40px;
+    color: darkgoldenrod;
+}
+.desc-detail p{
+    font-size: 20px;
+}
+.desc-detail-1{
+    padding-left: 500px;
+    margin-top: -310px;
+}
+.desc-detail-1 h2{
+    font-size: 40px;
+    color: darkgoldenrod;
+}
+.desc-detail-1 p{
+    font-size: 20px;
+}
+.desc-detail-2{
+    float: right;
+    margin-top: -400px;
+}
+.desc-detail-2 h2{
+    font-size: 35px;
+    color: darkgoldenrod;
+}
+.desc-detail-2 p{
+    font-size: 20px;
+}
+@media (min-width: 450px) and (max-width: 768px){
+    .desc{
+        display: block;
+    }
+    .desc-detail{
+        display: block;
+        height: 300px;
+        width: 400px;
+    }
+    .desc-detail h2{
+        font-size: 30px;
+    }
+    .desc-detail-1{
+        padding-left: 0px;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .desc-detail-2{
+        margin-top: 0px;
+        float: left;
+        height: 300px;
+        display: inline-block;
+        width: 500px;
+    }
+    .asst{
+        float: right;
+        margin-top: -175px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1400px){
+    .desc{
+        font-size: 20px;
+    }
+    .desc-detail{
+        height: 250px;
+        width: 300px;
+    }
+    .desc-detail h2{
+        font-size: 25px;
+    }
+    .desc-detail-1{
+        height: 300px;
+        width: 800px;
+        padding-left: 400px;
+        margin-top: -250px;
+    }
+    .desc-detail-1 h2{
+        font-size: 25px;
+    }
+    .desc-detail-2{
+        height: 400px;
+        width: 600px;
+        margin-top: -300px;
+        margin-right: -700px;
+    }
+    .desc-detail-2 h2{
+        font-size: 25px;
+    }
+}

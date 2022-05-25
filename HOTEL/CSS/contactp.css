@@ -1,0 +1,23 @@
+.com-info p{
+    font-size: 30px;
+    padding-left: 400px;
+}
+.com-info h2{
+    font-size: 40px;
+}
+.com-info-a{
+    text-decoration: none;
+    color: gray;
+}
+@media(min-width: 450px) and (max-width: 768px){
+    .com-info h2{
+        font-size: 30px;
+    }
+    .com-info p{
+        font-size: 20px;
+        padding-left: 200px;
+    }
+    .com-info{
+        margin-bottom: 0px;
+    }
+}
